@@ -1,0 +1,36 @@
+.parent {
+
+    width: 20%;
+    margin: 0 auto;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.barimg img {
+    border-radius: 50px;
+    width: 100%;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.duro{
+    background-color: black;
+    color: white;
+}
+
+.duro:hover{
+    background-color: red;
+    color: purple;
+    opacity: 0.4; 
+    box-shadow: 5px 3px orange;
+}
+.duro:active{
+    background-color: violet;
+}
+input{
+    display: block;
+}
